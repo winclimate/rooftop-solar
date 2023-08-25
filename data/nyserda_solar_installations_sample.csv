@@ -1,0 +1,11 @@
+Data Through Date,Project ID,Interconnection Date,Utility,City/Town,County,Zip,Division,Substation,Circuit ID,Developer,Metering Method,Estimated PV System Size (kWdc),PV System Size (kWac),Estimated Annual PV Energy Production (kWh),Energy Storage System Size (kWac),Number of Projects
+06/30/2023,SDG-59017,06/30/2023,Con Ed,STATEN ISLAND,Richmond,10308,CENY-SI,Wainwright,3R35,Kamtech Solar Solutions,NM,9.89,8.45,11605,,1
+06/30/2023,SDG-59015,06/30/2023,Con Ed,STATEN ISLAND,Richmond,10312,CENY-SI,Woodrow,5R15,Kamtech Solar Solutions,NM,15.28,13.06,17937,,1
+06/30/2023,SDG-59012,06/30/2023,Con Ed,STATEN ISLAND,Richmond,10314,CENY-SI,Willowbrook,4R86,Kamtech Solar Solutions,NM,7.18,6.14,8433,,1
+06/30/2023,SDG-59009,06/30/2023,Con Ed,East Elmhurst,Queens,11369,CENY-Q,Corona_1,1208,Kamtech Solar Solutions,NM,5.62,4.8,6592,,1
+06/30/2023,SDG-59003,06/30/2023,Con Ed,STATEN ISLAND,Richmond,10310,CENY-SI,FRESH_KILLS,395,Kamtech Solar Solutions,NM,9.89,8.45,11605,,1
+06/30/2023,SDG-58946,06/29/2023,Con Ed,Whitestone,Queens,11357,CENY-Q,Corona_1,SD2732,Kamtech Solar Solutions,NM,5.18,4.43,6084,,1
+06/30/2023,SDG-58926,06/29/2023,Con Ed,Springfield Gardens,Queens,11413,CENY-Q,Jamaica,9532,Eliyahu,NM,7.02,6,8240,,1
+06/30/2023,SDG-58923,06/29/2023,Con Ed,Brooklyn,Kings,11236,CENY-BK,Bensonhurst_2,3049,MOMENTUM SOLAR,NM,5.77,4.93,6771,,1
+06/30/2023,SDG-58825,06/28/2023,Con Ed,Pleasantville,Westchester,10570,CENY-W,Grasslands,19W28,Venture Solar,NM,11.54,9.86,13542,,1
+06/30/2023,SDG-58809,06/29/2023,Con Ed,East Elmhurst,Queens,11369,CENY-Q,Corona_2,9Q50,Kamtech Solar Solutions,NM,5.18,4.43,6084,,1
