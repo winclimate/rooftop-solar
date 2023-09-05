@@ -9,11 +9,11 @@ As photovoltaic panels continue to plunge in price, rooftop solar is starting to
 
 1. What percentage of New York State's rooftops could have solar panels on them? What percentage actually do?
 2. How does this gap vary by race, income, and location?
-3. What predicts location of rooftop panel installations?
+3. What predicts the location of rooftop panel installations?
 4. How have federal and state solar subsidies affected the pace of installations?
 
 ### Why does this matter?
-- **Question 1**: New York State's goal is to install 50GW of solar capacity in the next 17 years, a healthy portion of which should be rooftop solr. So even just measuring the gap between actual and potential rooftop solar, and how quickly we're closing it, could dramatically help distributed solar advocates like [SolarOne](https://solar1.org/), [VoteSolar](https://votesolar.org/), and [NYSEIA](https://www.nyseia.org/) push the state legislature to adopt their proposed policies. 
+- **Question 1**: New York State's goal is to install 50GW of solar capacity in the next 17 years, a healthy portion of which should be rooftop solar. So even just measuring the gap between actual and potential rooftop solar, and how quickly we're closing it, could dramatically help distributed solar advocates like [SolarOne](https://solar1.org/), [VoteSolar](https://votesolar.org/), and [NYSEIA](https://www.nyseia.org/) push the state legislature to adopt their proposed policies. 
 
 - **Question 2**: These policies aren't just about speeding up distributed solar deployment in general, but about closing the solar equity gap: anecdotally, low and moderate in New Yorkers don't appear to be benefitting from rooftop solar, even though they have the most to gain from cheaper power. So being able to characterize how the gap between potential and actual deployment varies by race and income would be even more valuable.
 
