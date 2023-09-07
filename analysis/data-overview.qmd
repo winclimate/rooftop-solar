@@ -1,0 +1,52 @@
+
+This [Quarto Notebook](https://quarto.org/docs/guide/) is intended to provide an overview of some of the core datasets for the overall NYS Rooftop Solar Analysis (and also introduce contributors to Quarto, a notebook and scientific authoring platform similar to Jupyter).
+
+```{python}
+!pip install ipyleaflet geopandas geopolars
+```
+
+```{python}
+import pandas as pd
+pd.set_option('display.max_columns', None)
+df = pd.read_csv(filepath_or_buffer='../data/google_solar_potential_sample.csv');
+df.describe()
+```
+
+```{python}
+df.sample(4)
+```
+
+```{python}
+from ipyleaflet import Map, Marker, Popup
+from ipywidgets import HTML
+
+df["lng"] = df["lng_avg"]
+df["lat"] = df['lat_avg']
+
+# Create an interactive map
+center = (df["lat"].mean(),df["lng"].mean())
+m = Map(center=center, zoom=14)
+
+# Function to generate popup content
+def generate_popup_content(row):
+    # For simplicity, let's say we want to show the entire row in the popup
+    # You can customize this based on your requirements
+    content = "<br>".join([f"{k}: {v}" for k, v in row.items()])
+    return content
+
+# Add markers with popups
+for _, row in df.iterrows():
+    location = (row["lat"], row["lng"])
+    marker = Marker(location=location)
+    
+    # Convert popup_content to an HTML widget
+    popup_content_html = HTML(generate_popup_content(row))
+    
+    # Create a popup and associate with the marker using the HTML widget
+    popup = Popup(location=location, child=popup_content_html, close_button=True, auto_close=False)
+    marker.popup = popup
+    
+    m.add_layer(marker)
+
+m
+```
